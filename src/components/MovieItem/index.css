@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.popup-content {
+}
+
+.thumbnail-image {
+  max-height: 300px;
+  max-width: 900px;
+}
+.react-player-container {
+  background-color: white;
+  height: 250px;
+  width: 370px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+}
+.react-player {
+  height: 60px;
+  width: 40px;
+}
+.trigger-button {
+  align-self: flex-end;
+
+  border-top: 0px;
+  background-color: transparent;
+}
+@media all and (max-width: 767px) {
+  .thumbnail-image {
+    height: 50px;
+    width: 70px;
+  }
+}
